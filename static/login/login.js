@@ -46,7 +46,7 @@ $(document).ready(function () {
     introductionItem.first().show();
 
     introductionPointerItem.mouseover(function () {
-        introductionPointerItem.index(this);
+        var thisIndex = introductionPointerItem.index(this);
     })
 
 });
